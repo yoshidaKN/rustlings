@@ -8,7 +8,7 @@ Rust勉強用のリポジトリ
 - [x] [02_functions](exercises/02_functions)
 - [x] [03_if](exercises/03_if)
 - [x] [04_primitive_types](exercises/04_primitive_types)
-- [ ] [05_vecs](exercises/05_vecs)
+- [x] [05_vecs](exercises/05_vecs)
 - [ ] [06_move_semantics](exercises/06_move_semantics)
 - [ ] [07_structs](exercises/07_structs)
 - [ ] [08_enums](exercises/08_enums)
