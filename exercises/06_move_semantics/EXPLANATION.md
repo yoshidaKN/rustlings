@@ -204,7 +204,7 @@ fn main() {
 }
 ```
 
-`get_char` に `data` の参照を渡す。更に、 `string_uppercase` 関数呼び出し以降は `data` を使っていないので、所有権をそのまま渡すので良い（と思う。その後も `data` の所有権を関数に握らせたくないならもっとコード書き換えないとだし。）
+`get_char` に `data` の参照を渡す。更に、 `string_uppercase` 関数呼び出し以降は `data` を使っていないので、所有権をそのまま渡すので良い。
 
 ```rust
 // Shouldn't take ownership
