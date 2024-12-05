@@ -1,10 +1,8 @@
 DON'T EDIT THIS FILE!
 
-structs1
+enums1
 
-vecs2
-move_semantics1
-move_semantics2
-move_semantics3
-move_semantics4
 move_semantics5
+structs1
+structs2
+structs3

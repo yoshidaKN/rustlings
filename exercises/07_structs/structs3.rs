@@ -1,5 +1,7 @@
-// Structs contain data, but can also have logic. In this exercise, we have
-// defined the `Package` struct, and we want to test some logic attached to it.
+// Structs contain data, but can also have logic. In this exercise,
+// we have defined the `Package` struct, and we want to test some logic attached to it.
+// 構造体にはデータが含まれますが、ロジックも含めることができます。
+// この演習では、`Package` 構造体を定義し、それに接続されたいくつかのロジックをテストしたいと思います。
 
 #[derive(Debug)]
 struct Package {
@@ -24,14 +26,17 @@ impl Package {
     }
 
     // TODO: Add the correct return type to the function signature.
-    fn is_international(&self) {
-        // TODO: Read the tests that use this method to find out when a package
-        // is considered international.
+    fn is_international(&self) -> bool {
+        // TODO: Read the tests that use this method to find out when a package is considered international.
+        // TODO: このメソッドを使用するテストを読んで、パッケージがいつ国際的であるとみなされるかを確認してください。
+        self.sender_country != self.recipient_country
     }
 
     // TODO: Add the correct return type to the function signature.
-    fn get_fees(&self, cents_per_gram: u32) {
+    fn get_fees(&self, cents_per_gram: u32) -> u32 {
         // TODO: Calculate the package's fees.
+        // TODO: パッケージの料金を計算します
+        cents_per_gram * self.weight_in_grams
     }
 }
 

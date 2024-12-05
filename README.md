@@ -10,7 +10,7 @@ Rust勉強用のリポジトリ
 - [x] [04_primitive_types](exercises/04_primitive_types)
 - [x] [05_vecs](exercises/05_vecs)
 - [x] [06_move_semantics](exercises/06_move_semantics)
-- [ ] [07_structs](exercises/07_structs)
+- [x] [07_structs](exercises/07_structs)
 - [ ] [08_enums](exercises/08_enums)
 - [ ] [09_strings](exercises/09_strings)
 - [ ] [10_modules](exercises/10_modules)
