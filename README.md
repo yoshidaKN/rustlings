@@ -11,7 +11,7 @@ Rust勉強用のリポジトリ
 - [x] [05_vecs](exercises/05_vecs)
 - [x] [06_move_semantics](exercises/06_move_semantics)
 - [x] [07_structs](exercises/07_structs)
-- [ ] [08_enums](exercises/08_enums)
+- [x] [08_enums](exercises/08_enums)
 - [ ] [09_strings](exercises/09_strings)
 - [ ] [10_modules](exercises/10_modules)
 - [ ] [11_hashmaps](exercises/11_hashmaps)
