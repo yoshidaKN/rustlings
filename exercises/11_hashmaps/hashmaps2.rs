@@ -7,6 +7,12 @@
 // more than 11 in total - we have a lot of mouths to feed. You are not allowed
 // to insert any more of the fruits that are already in the basket (Apple,
 // Mango, and Lychee).
+// おいしいフルーツケーキを焼くために、さまざまなフルーツを集めています。
+// このために、ハッシュマップの形式で表現するバスケットがあります。
+// キーは、集めた各フルーツの名前を表し、値は、その特定のフルーツを何個集めたかを表します。
+// バスケットのハッシュマップには、リンゴ (4)、マンゴー (2)、ライチ (5) の 3 種類のフルーツがすでに入っています。
+// バスケットにフルーツを追加して、各種類が少なくとも 1 つずつ、合計で 11 個以上になるようにする必要があります。
+// たくさんの人に食べさせなければなりません。バスケットにすでに入っているフルーツ (リンゴ、マンゴー、ライチ) をこれ以上追加することはできません。
 
 use std::collections::HashMap;
 
@@ -32,6 +38,12 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         // TODO: Insert new fruits if they are not already present in the
         // basket. Note that you are not allowed to put any type of fruit that's
         // already present!
+        // TODO: バスケットにまだ入っていない場合は、
+        // 新しいフルーツを入れます。
+        // すでに入っているフルーツの種類は入れることができませんので注意してください。
+        if !basket.contains_key(&fruit) {
+            basket.insert(fruit, 1);
+        }
     }
 }
 

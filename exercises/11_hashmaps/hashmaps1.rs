@@ -4,16 +4,23 @@
 // types of fruits (e.g. apple, banana, mango) in the basket and the total count
 // of all the fruits should be at least 5.
 
+// ハッシュ マップの形式でフルーツのバスケットを定義する必要があります。
+// キーはフルーツの名前を表し、値はバスケットに入っている特定のフルーツの数を表します。
+// バスケットには少なくとも 3 種類のフルーツ (リンゴ、バナナ、マンゴーなど) を入れ、
+// すべてのフルーツの合計数は少なくとも 5 個である必要があります。
+
 use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
     // TODO: Declare the hash map.
-    // let mut basket =
+    let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
 
     // TODO: Put more fruits in your basket.
+    basket.insert(String::from("apple"), 2);
+    basket.insert(String::from("mongo"), 1);
 
     basket
 }
