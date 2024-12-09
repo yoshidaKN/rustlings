@@ -15,7 +15,7 @@ Rust勉強用のリポジトリ
 - [x] [09_strings](exercises/09_strings)
 - [x] [10_modules](exercises/10_modules)
 - [x] [11_hashmaps](exercises/11_hashmaps)
-- [ ] [12_options](exercises/12_options)
+- [x] [12_options](exercises/12_options)
 - [ ] [13_error_handling](exercises/13_error_handling)
 - [ ] [14_generics](exercises/14_generics)
 - [ ] [15_traits](exercises/15_traits)
